@@ -1,0 +1,22 @@
+{
+    "name": "sagittaracc/suql-app",
+    "authors": [
+        {
+            "name": "sagittaracc",
+            "email": "sagittaracc@gmail.com"
+        }
+    ],
+    "require": {
+        "sagittaracc/suql": "^7.0"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "mv ./vendor/sagittaracc/suql/suql ./"
+        ]
+    },
+    "autoload": {
+        "classmap": [
+            "app/"
+        ]
+    }
+}
